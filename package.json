@@ -1,0 +1,33 @@
+{
+  "name": "cross-domain",
+  "version": "1.0.0",
+  "description": "W3C CROS & Proxy",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever start app.js",
+    "stop": "forever stopall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimseongrim/cross-domain.git"
+  },
+  "keywords": [
+    "cross",
+    "domain"
+  ],
+  "author": "Kim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimseongrim/cross-domain/issues"
+  },
+  "homepage": "https://github.com/kimseongrim/cross-domain#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.16.4",
+    "forever": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "set-cookie": "0.0.4",
+    "vue": "^2.6.11"
+  }
+}
